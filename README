@@ -1,0 +1,12 @@
+Paymayo Payment Gateway
+Written in Java
+
+This is the custom RESTful API web service used by the Bookworm application. Users who make purchases in Bookworm application will be processed by this app.
+
+Application dependencies:
+- Sqlite
+- Apache Tomcat
+
+Sqlite is the persistence layer for this application.
+
+(c) John Michael Gerona

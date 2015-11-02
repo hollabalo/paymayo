@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<web-app>
+	<display-name>PayMayo</display-name>
+	<description>Activity for Day12 Plaform Training</description>
+	<servlet>
+		<servlet-name>Cards</servlet-name>
+		<servlet-class>CardServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Transactions</servlet-name>
+		<servlet-class>TransactionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cards</servlet-name>
+		<url-pattern>/cards/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Transactions</servlet-name>
+		<url-pattern>/transactions/*</url-pattern>
+	</servlet-mapping>
+</web-app>
